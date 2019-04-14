@@ -1,0 +1,11 @@
+h2 {
+    align-content: center;
+    text-align: center;
+}
+
+.topic {
+    margin: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
