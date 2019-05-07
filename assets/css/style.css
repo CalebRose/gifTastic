@@ -9,3 +9,14 @@ h2 {
     padding-left: 8px;
     padding-right: 8px;
 }
+
+#gifs {
+    padding-top: 10px;
+}
+
+#add-topic {
+    margin: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
