@@ -26,7 +26,7 @@ $(document).ready(function () {
     // AJAX Call here
     $(document).on('click', '.topic', function () {
         var query = $(this).attr("id");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+        var queryURL = "https://cors-anywhere.herokuapp.com/https://api.giphy.com/v1/gifs/search?q=" +
             query + "&api_key=dc6zaTOxFJmzC&limit=10";
 
         $.ajax({
